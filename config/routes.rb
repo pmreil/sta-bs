@@ -1,5 +1,5 @@
 Sta::Application.routes.draw do
-  get "security/index"
+  #get "security/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -14,6 +14,7 @@ Sta::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  resources :securities
 
   # Sample resource route with options:
   #   resources :products do
